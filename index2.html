@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>internship1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .main {
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?auto=format&h=200);
+            background-position: center;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navbar {
+            max-width: 1200px;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .main h1 {
+            color: black;
+            font-size: 2rem;
+            padding-top: 20px;
+        }
+
+        .branches ul li {
+            height: 35px;
+            font-size: 1.5rem;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 10px;
+            list-style: none;
+        }
+
+        .log {
+            background: rgb(90, 197, 230);
+            text-align: center;
+            padding: 10px;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            transition: 0.25s;
+            margin-bottom: 20px;
+        }
+
+        .branches img {
+            max-width: 60%;
+            height: 400px;
+            margin: 20px 0;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .main {
+                min-height: 110vh;
+            }
+
+            .main h1 {
+                font-size: 3rem;
+            }
+
+            .branches ul li {
+                font-size: 2rem;
+            }
+            .branches img{
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="log">
+        <a href="login.html">Log Out</a>
+    </div>
+    <div class="main">
+        <h1><big>NMAMIT Engineering Branches:</big></h1>
+        <div class="navbar">
+            <div class="branches">
+                <ul>
+                    <li><big><a href="index3.html">Computer Science & Engineering</a></big></li>
+                </ul>
+                <a href="https://www.google.com/maps/place/NMAMIT+Admin+Block+(APJ+block)/@13.1832938,74.9334117,15z/data=!4m6!3m5!1s0x3bbcaa27efa0cc03:0xdbc31ae30c5a190a!8m2!3d13.1832938!4d74.9334117!16s%2Fg%2F11cndbn7q8">
+                    <img src="cse.jpg" alt="cse">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
